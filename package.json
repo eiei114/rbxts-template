@@ -23,9 +23,9 @@
 		"prepare": "husky"
 	},
 	"devDependencies": {
-    "@commitlint/cli": "19.5.0",
-		"@commitlint/config-conventional": "19.5.0",
-		"@commitlint/prompt-cli": "19.5.0",
+    "@commitlint/cli": "19.6.0",
+		"@commitlint/config-conventional": "19.6.0",
+		"@commitlint/prompt-cli": "19.6.0",
 		"@commitlint/types": "19.5.0",
 		"@eslint-react/eslint-plugin": "1.14.2",
 		"@eslint/config-inspector": "0.5.5",

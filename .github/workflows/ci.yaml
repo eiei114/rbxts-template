@@ -40,5 +40,11 @@ jobs:
       - name: Lint
         run: pnpm lint
 
+      - name: License
+        run: pnpm license
+
+      - name: Linkcheck
+        run: pnpm linkcheck
+
       - name: Textlint
         run: pnpm textlint

@@ -18,11 +18,14 @@
 		"dev:stop": "rbxts-build stop",
 		"dev:sync": "rbxts-build sync",
 		"dev:watch": "rbxts-build watch",
+		"license": "npx license-checker --production --summary",
+		"linkcheck": "npx markdown-link-check README.md",
 		"lint": "eslint --max-warnings 0 --flag unstable_ts_config .",
 		"lint:fix": "eslint --fix --max-warnings 0 --flag unstable_ts_config .",
 		"prepare": "husky",
 		"prod:sync": "rojo serve ./build.project.json",
-		"textlint": "npx textlint README.md"
+		"textlint": "npx textlint README.md",
+		"textlint:fix": "npx textlint --fix README.md"
 	},
 	"lint-staged": {
 		"*.{ts,tsx}": "prettier --write"
@@ -58,7 +61,9 @@
 		"eslint-plugin-roblox-ts": "0.0.36",
 		"husky": "9.1.7",
 		"jiti": "2.4.1",
+		"license-checker": "25.0.1",
 		"lint-staged": "15.2.11",
+		"markdown-link-check": "3.13.6",
 		"prettier": "3.4.2",
 		"rbxts-build": "2.4.0",
 		"roblox-ts": "3.0.0",

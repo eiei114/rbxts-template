@@ -23,7 +23,7 @@
 		"plugin:prettier/recommended"
 	],
 	"rules": {
-		"prettier/prettier": "warn",
+		"prettier/prettier": "warn"
 		// "@typescript-eslint/no-magic-numbers": [
 		// 	"error",
 		// 	{

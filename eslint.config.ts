@@ -22,7 +22,7 @@ export default style(
 	{
 		files: [GLOB_MARKDOWN],
 		rules: {
-			"eol-last": "off",
+			"style/eol-last": "off",
 		},
 	},
 );

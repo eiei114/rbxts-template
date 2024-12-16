@@ -11,5 +11,7 @@
 	},
 	"eslint.run": "onType",
 	"eslint.format.enable": true,
-	"cSpell.configFile": "cspell.config.yaml"
+	"cSpell.configFile": "cspell.config.yaml",
+	"editor.formatOnSave": true,
+	"prettier.requireConfig": true
 }

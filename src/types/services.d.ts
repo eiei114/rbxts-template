@@ -1,11 +1,6 @@
-interface ReplicatedStorage {
+/* eslint-disable */
+interface ReplicatedStorage {}
 
-}
+interface ServerScriptService {}
 
-interface ServerScriptService {
-
-}
-
-interface Workspace {
-
-}
+interface Workspace {}

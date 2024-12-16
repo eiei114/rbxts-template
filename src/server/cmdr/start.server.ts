@@ -1,6 +1,6 @@
 import { Cmdr } from "@rbxts/cmdr";
 
-const parent = <Folder>script.Parent;
+const parent = script.Parent as Folder;
 Cmdr.RegisterDefaultCommands();
-Cmdr.RegisterCommandsIn(<Folder>parent.FindFirstChild("commands"));
-Cmdr.RegisterHooksIn(<Folder>parent.FindFirstChild("hooks"));
+Cmdr.RegisterCommandsIn(parent.FindFirstChild("commands") as Folder);
+Cmdr.RegisterHooksIn(parent.FindFirstChild("hooks") as Folder);

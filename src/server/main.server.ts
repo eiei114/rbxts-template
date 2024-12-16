@@ -1,1 +1,2 @@
-print("Hello World from server");
+/* eslint-disable */
+print(`Hello World from server`);

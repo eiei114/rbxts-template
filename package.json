@@ -48,7 +48,7 @@
 		"rbxts-build": "2.4.0",
 		"roblox-ts": "3.0.0",
 		"ts-node": "10.9.2",
-		"typescript": "5.5.4"
+		"typescript": "5.7.2"
 	},
 	"dependencies": {
 		"@rbxts/cmdr": "1.12.1",

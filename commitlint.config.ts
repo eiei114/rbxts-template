@@ -1,4 +1,3 @@
-/* eslint-disable ts/no-magic-numbers -- Ignore magic numbers for RuleConfigSeverity. */
 import { RuleConfigSeverity, type UserConfig } from "@commitlint/types";
 
 const Configuration: UserConfig = {

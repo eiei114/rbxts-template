@@ -10,7 +10,7 @@ export default style(
 			"eslint-comments/require-description": "off",
 			"no-console": "off",
 			"no-unused-vars": "off",
-			"ts/no-null-assertion": "off",
+			"ts/no-non-null-assertion": "off",
 		},
 		typescript: {
 			parserOptions: {

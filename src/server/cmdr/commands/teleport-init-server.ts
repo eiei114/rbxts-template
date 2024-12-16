@@ -6,7 +6,7 @@ export = function (context: CommandContext): void {
 		const spawnLocation = Workspace.FindFirstChild("SpawnLocation") as Part;
 		// 全プレイヤーを初期位置に移動
 		for (const player of Players.GetPlayers()) {
-			const character = player.Character! as Model;
+			const character = player.Character!;
 			const humanoidRootPart = character.FindFirstChild("HumanoidRootPart")! as Part;
 			humanoidRootPart.CFrame = spawnLocation.CFrame;
 		}

@@ -19,6 +19,7 @@
 		"dev:sync": "rbxts-build sync",
 		"dev:watch": "rbxts-build watch",
 		"lint": "eslint --max-warnings 0 --flag unstable_ts_config .",
+		"lint:fix": "eslint --fix --max-warnings 0 --flag unstable_ts_config .",
 		"prepare": "husky",
 		"prod:sync": "rojo serve ./build.project.json"
 	},

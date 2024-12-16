@@ -1,0 +1,18 @@
+/node_modules
+/out
+/include
+*.tsbuildinfo
+
+# Misc
+.DS_Store
+
+/dist
+sourcemap.json
+*.rbxl.lock
+*.rbxl
+*.rbxlx
+
+# Bundled eslint config
+*.mjs
+
+.env

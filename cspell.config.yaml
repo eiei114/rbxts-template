@@ -1,0 +1,22 @@
+# yaml-language-server:
+# $schema=https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json
+
+version: '0.2'
+language: en
+words:
+  - lifecycles
+  - rbxts
+  - rbxtsc
+  - roblox
+  - roblox-ts
+  - darklua
+  - remo
+  - Aftman
+  - rojo
+  - jacktabscode
+  - seaofvoices
+  - codegen
+  - commitlint
+  - automerge
+  - conventionalcommits
+  - Lerp

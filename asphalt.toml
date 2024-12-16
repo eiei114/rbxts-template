@@ -1,0 +1,12 @@
+asset_dir = "assets"
+write_dir = "src/shared/"
+
+[creator]
+type = "group"
+id = 34111134
+
+[codegen]
+output_name = "assets"
+typescript = true
+style = "nested"
+strip_extension = true

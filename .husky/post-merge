@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# プロジェクトディレクトリ内のpnpm-lock.yamlのみマッチ
+npx git-pull-run --pattern "pnpm-lock.yaml" --command "pnpm install"

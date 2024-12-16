@@ -21,7 +21,8 @@
 		"lint": "eslint --max-warnings 0 --flag unstable_ts_config .",
 		"lint:fix": "eslint --fix --max-warnings 0 --flag unstable_ts_config .",
 		"prepare": "husky",
-		"prod:sync": "rojo serve ./build.project.json"
+		"prod:sync": "rojo serve ./build.project.json",
+		"textlint": "npx textlint README.md"
 	},
 	"lint-staged": {
 		"*.{ts,tsx}": "prettier --write"
@@ -61,6 +62,10 @@
 		"prettier": "3.4.2",
 		"rbxts-build": "2.4.0",
 		"roblox-ts": "3.0.0",
+		"textlint": "14.4.0",
+		"textlint-rule-ja-unnatural-alphabet": "2.0.1",
+		"textlint-rule-no-doubled-joshi": "5.1.0",
+		"textlint-rule-no-todo": "2.0.1",
 		"ts-node": "10.9.2",
 		"typescript": "5.5.4"
 	},

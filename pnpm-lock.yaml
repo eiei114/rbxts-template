@@ -55,8 +55,8 @@ importers:
         specifier: 9.17.0
         version: 9.17.0
       '@isentinel/eslint-config':
-        specifier: 0.8.0
-        version: 0.8.0(@babel/core@7.24.3)(@eslint-react/eslint-plugin@1.14.2(eslint@9.13.0(jiti@2.4.1))(typescript@5.5.4))(eslint-plugin-react-roblox-hooks@5.1.0-rbx.1(eslint@9.13.0(jiti@2.4.1)))(eslint@9.13.0(jiti@2.4.1))(typescript@5.5.4)(vue-eslint-parser@9.4.3(eslint@9.13.0(jiti@2.4.1)))
+        specifier: 0.9.0
+        version: 0.9.0(@babel/core@7.24.3)(@eslint-react/eslint-plugin@1.14.2(eslint@9.13.0(jiti@2.4.1))(typescript@5.5.4))(eslint-plugin-jest@28.9.0(@typescript-eslint/eslint-plugin@8.18.0(@typescript-eslint/parser@8.18.0(eslint@9.13.0(jiti@2.4.1))(typescript@5.5.4))(eslint@9.13.0(jiti@2.4.1))(typescript@5.5.4))(eslint@9.13.0(jiti@2.4.1))(typescript@5.5.4))(eslint-plugin-react-roblox-hooks@5.1.0-rbx.1(eslint@9.13.0(jiti@2.4.1)))(eslint@9.13.0(jiti@2.4.1))(typescript@5.5.4)(vue-eslint-parser@9.4.3(eslint@9.13.0(jiti@2.4.1)))
       '@rbxts/compiler-types':
         specifier: 3.0.0-types.0
         version: 3.0.0-types.0
@@ -1310,15 +1310,18 @@ packages:
   '@isentinel/dict-roblox@1.0.3':
     resolution: {integrity: sha512-XR1KVHZLyyamVobUICxTlDkB3gfLVuV34mdFQeIL7DfCtNI2uCeuZm6g6J63AQzUrqsCIUF166Ogf+TL0przdg==}
 
-  '@isentinel/eslint-config@0.8.0':
-    resolution: {integrity: sha512-C86k1rvqRuh1zKuPyZKcbSTJREqdUcwOed+t9BTGCNPHx980DXCgZ1g4rbB+r+7hsSz5QEejq3fMHSB1vylSSQ==}
+  '@isentinel/eslint-config@0.9.0':
+    resolution: {integrity: sha512-sozZKi7GtMtJBbPkrlk1bA+4f6gQv6cwte+rf0lG17Gpls2i6Abtq4Z/cmh1n/oFkk/bUsguS/GTRoG1qri5cQ==}
     hasBin: true
     peerDependencies:
       '@eslint-react/eslint-plugin': ^1.14.0
       eslint: ^9.10.0
+      eslint-plugin-jest: ^28.9.0
       eslint-plugin-react-roblox-hooks: ^5.1.0-rbx.1
     peerDependenciesMeta:
       '@eslint-react/eslint-plugin':
+        optional: true
+      eslint-plugin-jest:
         optional: true
       eslint-plugin-react-roblox-hooks:
         optional: true
@@ -2511,6 +2514,10 @@ packages:
     engines: {node: '>=18'}
     peerDependencies:
       eslint: '>=8'
+
+  eslint-plugin-no-only-tests@3.3.0:
+    resolution: {integrity: sha512-brcKcxGnISN2CcVhXJ/kEQlNa0MEfGRtwKtWA16SkqXHKitaKIMrfemJKLKX1YqDU5C/5JY3PvZXd5jEW04e0Q==}
+    engines: {node: '>=5.0.0'}
 
   eslint-plugin-node@11.1.0:
     resolution: {integrity: sha512-oUwtPJ1W0SKD0Tr+wqu92c5xuCeQqB3hSCHasn/ZgjFdA9iDGNkNf2Zi9ztY7X+hNuMib23LNGRm6+uN+KLE3g==}
@@ -4536,7 +4543,7 @@ snapshots:
     dependencies:
       '@babel/helper-validator-identifier': 7.25.9
       js-tokens: 4.0.0
-      picocolors: 1.1.0
+      picocolors: 1.1.1
 
   '@babel/compat-data@7.26.3': {}
 
@@ -5334,13 +5341,13 @@ snapshots:
 
   '@clack/core@0.3.5':
     dependencies:
-      picocolors: 1.1.0
+      picocolors: 1.1.1
       sisteransi: 1.0.5
 
   '@clack/prompts@0.7.0':
     dependencies:
       '@clack/core': 0.3.5
-      picocolors: 1.1.0
+      picocolors: 1.1.1
       sisteransi: 1.0.5
 
   '@commitlint/cli@19.5.0(@types/node@22.10.2)(typescript@5.5.4)':
@@ -5948,7 +5955,7 @@ snapshots:
 
   '@isentinel/dict-roblox@1.0.3': {}
 
-  '@isentinel/eslint-config@0.8.0(@babel/core@7.24.3)(@eslint-react/eslint-plugin@1.14.2(eslint@9.13.0(jiti@2.4.1))(typescript@5.5.4))(eslint-plugin-react-roblox-hooks@5.1.0-rbx.1(eslint@9.13.0(jiti@2.4.1)))(eslint@9.13.0(jiti@2.4.1))(typescript@5.5.4)(vue-eslint-parser@9.4.3(eslint@9.13.0(jiti@2.4.1)))':
+  '@isentinel/eslint-config@0.9.0(@babel/core@7.24.3)(@eslint-react/eslint-plugin@1.14.2(eslint@9.13.0(jiti@2.4.1))(typescript@5.5.4))(eslint-plugin-jest@28.9.0(@typescript-eslint/eslint-plugin@8.18.0(@typescript-eslint/parser@8.18.0(eslint@9.13.0(jiti@2.4.1))(typescript@5.5.4))(eslint@9.13.0(jiti@2.4.1))(typescript@5.5.4))(eslint@9.13.0(jiti@2.4.1))(typescript@5.5.4))(eslint-plugin-react-roblox-hooks@5.1.0-rbx.1(eslint@9.13.0(jiti@2.4.1)))(eslint@9.13.0(jiti@2.4.1))(typescript@5.5.4)(vue-eslint-parser@9.4.3(eslint@9.13.0(jiti@2.4.1)))':
     dependencies:
       '@antfu/install-pkg': 0.4.1
       '@clack/prompts': 0.7.0
@@ -5976,6 +5983,7 @@ snapshots:
       eslint-plugin-jsonc: 2.16.0(eslint@9.13.0(jiti@2.4.1))
       eslint-plugin-markdown: 5.1.0(eslint@9.13.0(jiti@2.4.1))
       eslint-plugin-no-autofix: 2.1.0(eslint@9.13.0(jiti@2.4.1))
+      eslint-plugin-no-only-tests: 3.3.0
       eslint-plugin-package-json: 0.15.3(eslint@9.13.0(jiti@2.4.1))(jsonc-eslint-parser@2.4.0)
       eslint-plugin-perfectionist: 3.6.0(eslint@9.13.0(jiti@2.4.1))(typescript@5.5.4)(vue-eslint-parser@9.4.3(eslint@9.13.0(jiti@2.4.1)))
       eslint-plugin-promise: 7.1.0(eslint@9.13.0(jiti@2.4.1))
@@ -5996,6 +6004,7 @@ snapshots:
       yargs: 17.7.2
     optionalDependencies:
       '@eslint-react/eslint-plugin': 1.14.2(eslint@9.13.0(jiti@2.4.1))(typescript@5.5.4)
+      eslint-plugin-jest: 28.9.0(@typescript-eslint/eslint-plugin@8.18.0(@typescript-eslint/parser@8.18.0(eslint@9.13.0(jiti@2.4.1))(typescript@5.5.4))(eslint@9.13.0(jiti@2.4.1))(typescript@5.5.4))(eslint@9.13.0(jiti@2.4.1))(typescript@5.5.4)
       eslint-plugin-react-roblox-hooks: 5.1.0-rbx.1(eslint@9.13.0(jiti@2.4.1))
     transitivePeerDependencies:
       - '@babel/core'
@@ -7523,6 +7532,17 @@ snapshots:
       - supports-color
       - typescript
 
+  eslint-plugin-jest@28.9.0(@typescript-eslint/eslint-plugin@8.18.0(@typescript-eslint/parser@8.18.0(eslint@9.13.0(jiti@2.4.1))(typescript@5.5.4))(eslint@9.13.0(jiti@2.4.1))(typescript@5.5.4))(eslint@9.13.0(jiti@2.4.1))(typescript@5.5.4):
+    dependencies:
+      '@typescript-eslint/utils': 8.18.0(eslint@9.13.0(jiti@2.4.1))(typescript@5.5.4)
+      eslint: 9.13.0(jiti@2.4.1)
+    optionalDependencies:
+      '@typescript-eslint/eslint-plugin': 8.18.0(@typescript-eslint/parser@8.18.0(eslint@9.13.0(jiti@2.4.1))(typescript@5.5.4))(eslint@9.13.0(jiti@2.4.1))(typescript@5.5.4)
+    transitivePeerDependencies:
+      - supports-color
+      - typescript
+    optional: true
+
   eslint-plugin-jsdoc@50.2.4(eslint@9.13.0(jiti@2.4.1)):
     dependencies:
       '@es-joy/jsdoccomment': 0.48.0
@@ -7582,6 +7602,8 @@ snapshots:
       eslint: 9.13.0(jiti@2.4.1)
       eslint-rule-composer: 0.3.0
       find-up: 5.0.0
+
+  eslint-plugin-no-only-tests@3.3.0: {}
 
   eslint-plugin-node@11.1.0(eslint@9.13.0(jiti@2.4.1)):
     dependencies:
@@ -9722,7 +9744,7 @@ snapshots:
     dependencies:
       browserslist: 4.24.3
       escalade: 3.2.0
-      picocolors: 1.1.0
+      picocolors: 1.1.1
 
   upper-case-first@2.0.2:
     dependencies:

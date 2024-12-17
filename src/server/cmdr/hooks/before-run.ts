@@ -1,4 +1,4 @@
-import type { CommandContext, Registry } from "@rbxts/cmdr";
+import type { Registry } from "@rbxts/cmdr";
 import { RunService as Runtime } from "@rbxts/services";
 
 const DEVS = new Set([game.CreatorId]);
@@ -9,17 +9,17 @@ const enum Message {
 }
 
 export = function (registry: Registry) {
-	registry.RegisterHook("BeforeRun", (context: CommandContext) => {
-		switch (context.Group) {
+	registry.RegisterHook("BeforeRun", (ctx) => {
+		switch (ctx.Group) {
 			case "Dev": {
-				if (DEVS.has(context.Executor.UserId) || Runtime.IsStudio()) {
-					return Message.NoPermissionDevelopment;
+				if (DEVS.has(ctx.Executor.UserId) || Runtime.IsStudio()) {
+					return undefined; // 権限がある場合は何も返さない
 				}
 
-				return Message.NoPermission;
+				return Message.NoPermissionDevelopment; // 権限がない場合はエラーメッセージを返す
 			}
 			default: {
-				return Message.NoPermission;
+				return undefined; // デフォルトでは何も返さない
 			}
 		}
 	});

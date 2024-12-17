@@ -3,4 +3,6 @@ interface ReplicatedStorage {}
 
 interface ServerScriptService {}
 
-interface Workspace {}
+interface Workspace {
+	Baseplate: Part;
+}

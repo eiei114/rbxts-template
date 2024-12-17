@@ -31,14 +31,14 @@ importers:
         version: 3.2.0
     devDependencies:
       '@commitlint/cli':
-        specifier: 19.5.0
-        version: 19.5.0(@types/node@22.10.2)(typescript@5.5.4)
+        specifier: 19.6.0
+        version: 19.6.0(@types/node@22.10.2)(typescript@5.5.4)
       '@commitlint/config-conventional':
-        specifier: 19.5.0
-        version: 19.5.0
+        specifier: 19.6.0
+        version: 19.6.0
       '@commitlint/prompt-cli':
-        specifier: 19.5.0
-        version: 19.5.0(@types/node@22.10.2)(typescript@5.5.4)
+        specifier: 19.6.0
+        version: 19.6.0(@types/node@22.10.2)(typescript@5.5.4)
       '@commitlint/types':
         specifier: 19.5.0
         version: 19.5.0
@@ -785,13 +785,13 @@ packages:
     bundledDependencies:
       - is-unicode-supported
 
-  '@commitlint/cli@19.5.0':
-    resolution: {integrity: sha512-gaGqSliGwB86MDmAAKAtV9SV1SHdmN8pnGq4EJU4+hLisQ7IFfx4jvU4s+pk6tl0+9bv6yT+CaZkufOinkSJIQ==}
+  '@commitlint/cli@19.6.0':
+    resolution: {integrity: sha512-v17BgGD9w5KnthaKxXnEg6KLq6DYiAxyiN44TpiRtqyW8NSq+Kx99mkEG8Qo6uu6cI5eMzMojW2muJxjmPnF8w==}
     engines: {node: '>=v18'}
     hasBin: true
 
-  '@commitlint/config-conventional@19.5.0':
-    resolution: {integrity: sha512-OBhdtJyHNPryZKg0fFpZNOBM1ZDbntMvqMuSmpfyP86XSfwzGw4CaoYRG4RutUPg0BTK07VMRIkNJT6wi2zthg==}
+  '@commitlint/config-conventional@19.6.0':
+    resolution: {integrity: sha512-DJT40iMnTYtBtUfw9ApbsLZFke1zKh6llITVJ+x9mtpHD08gsNXaIRqHTmwTZL3dNX5+WoyK7pCN/5zswvkBCQ==}
     engines: {node: '>=v18'}
 
   '@commitlint/config-validator@19.5.0':
@@ -830,8 +830,8 @@ packages:
     resolution: {integrity: sha512-cZ/IxfAlfWYhAQV0TwcbdR1Oc0/r0Ik1GEessDJ3Lbuma/MRO8FRQX76eurcXtmhJC//rj52ZSZuXUg0oIX0Fw==}
     engines: {node: '>=v18'}
 
-  '@commitlint/prompt-cli@19.5.0':
-    resolution: {integrity: sha512-JmKTe9NR6qMRQ4H/zHFRMwI+MK3lDSDN7WNT+U/43SEVlgX+Vsb4gi4nlpW02y9BWcex8mXJWFlilOE6XXc8Hg==}
+  '@commitlint/prompt-cli@19.6.0':
+    resolution: {integrity: sha512-SPgI1CE7P2utglCUzo1DTr26xEP5dG3xJcxjygcDvQzzjlUp+mIPq+SJ65KyHCxDKf4GCAosh+lEZOTBWKKEoA==}
     engines: {node: '>=v18'}
     hasBin: true
 
@@ -6243,7 +6243,7 @@ snapshots:
       picocolors: 1.1.0
       sisteransi: 1.0.5
 
-  '@commitlint/cli@19.5.0(@types/node@22.10.2)(typescript@5.5.4)':
+  '@commitlint/cli@19.6.0(@types/node@22.10.2)(typescript@5.5.4)':
     dependencies:
       '@commitlint/format': 19.5.0
       '@commitlint/lint': 19.6.0
@@ -6256,7 +6256,7 @@ snapshots:
       - '@types/node'
       - typescript
 
-  '@commitlint/config-conventional@19.5.0':
+  '@commitlint/config-conventional@19.6.0':
     dependencies:
       '@commitlint/types': 19.5.0
       conventional-changelog-conventionalcommits: 7.0.2
@@ -6318,7 +6318,7 @@ snapshots:
       conventional-changelog-angular: 7.0.0
       conventional-commits-parser: 5.0.0
 
-  '@commitlint/prompt-cli@19.5.0(@types/node@22.10.2)(typescript@5.5.4)':
+  '@commitlint/prompt-cli@19.6.0(@types/node@22.10.2)(typescript@5.5.4)':
     dependencies:
       '@commitlint/prompt': 19.6.1(@types/node@22.10.2)(typescript@5.5.4)
       inquirer: 9.3.7

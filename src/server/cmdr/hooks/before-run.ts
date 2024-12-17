@@ -9,18 +9,11 @@ const enum Message {
 }
 
 export = function (registry: Registry) {
-	registry.RegisterHook("BeforeRun", (ctx) => {
-		switch (ctx.Group) {
-			case "Dev": {
-				if (DEVS.has(ctx.Executor.UserId) || Runtime.IsStudio()) {
-					return undefined; // 権限がある場合は何も返さない
-				}
-
-				return Message.NoPermissionDevelopment; // 権限がない場合はエラーメッセージを返す
-			}
-			default: {
-				return undefined; // デフォルトでは何も返さない
-			}
+	registry.RegisterHook("BeforeRun", (context) => {
+		if (DEVS.has(context.Executor.UserId) || Runtime.IsStudio()) {
+			return;
 		}
+
+		return Message.NoPermissionDevelopment;
 	});
 };

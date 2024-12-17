@@ -1,4 +1,3 @@
-/* eslint-disable */
 import type { CommandContext } from "@rbxts/cmdr";
 import { Players, Workspace } from "@rbxts/services";
 

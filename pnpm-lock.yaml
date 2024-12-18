@@ -31,14 +31,14 @@ importers:
         version: 3.2.0
     devDependencies:
       '@commitlint/cli':
-        specifier: 19.6.0
-        version: 19.6.0(@types/node@22.10.2)(typescript@5.5.4)
+        specifier: 19.6.1
+        version: 19.6.1(@types/node@22.10.2)(typescript@5.5.4)
       '@commitlint/config-conventional':
         specifier: 19.6.0
         version: 19.6.0
       '@commitlint/prompt-cli':
-        specifier: 19.6.0
-        version: 19.6.0(@types/node@22.10.2)(typescript@5.5.4)
+        specifier: 19.6.1
+        version: 19.6.1(@types/node@22.10.2)(typescript@5.5.4)
       '@commitlint/types':
         specifier: 19.5.0
         version: 19.5.0
@@ -785,8 +785,8 @@ packages:
     bundledDependencies:
       - is-unicode-supported
 
-  '@commitlint/cli@19.6.0':
-    resolution: {integrity: sha512-v17BgGD9w5KnthaKxXnEg6KLq6DYiAxyiN44TpiRtqyW8NSq+Kx99mkEG8Qo6uu6cI5eMzMojW2muJxjmPnF8w==}
+  '@commitlint/cli@19.6.1':
+    resolution: {integrity: sha512-8hcyA6ZoHwWXC76BoC8qVOSr8xHy00LZhZpauiD0iO0VYbVhMnED0da85lTfIULxl7Lj4c6vZgF0Wu/ed1+jlQ==}
     engines: {node: '>=v18'}
     hasBin: true
 
@@ -830,8 +830,8 @@ packages:
     resolution: {integrity: sha512-cZ/IxfAlfWYhAQV0TwcbdR1Oc0/r0Ik1GEessDJ3Lbuma/MRO8FRQX76eurcXtmhJC//rj52ZSZuXUg0oIX0Fw==}
     engines: {node: '>=v18'}
 
-  '@commitlint/prompt-cli@19.6.0':
-    resolution: {integrity: sha512-SPgI1CE7P2utglCUzo1DTr26xEP5dG3xJcxjygcDvQzzjlUp+mIPq+SJ65KyHCxDKf4GCAosh+lEZOTBWKKEoA==}
+  '@commitlint/prompt-cli@19.6.1':
+    resolution: {integrity: sha512-CctENTw2sHGBbpLVKk9LpJ3WFwSzVBHxNN6hw7Mw8yDtfibS2mbx0HT0gDw1Ip3WGVq+msw+A9bdvsS5F4fk+w==}
     engines: {node: '>=v18'}
     hasBin: true
 
@@ -6243,7 +6243,7 @@ snapshots:
       picocolors: 1.1.0
       sisteransi: 1.0.5
 
-  '@commitlint/cli@19.6.0(@types/node@22.10.2)(typescript@5.5.4)':
+  '@commitlint/cli@19.6.1(@types/node@22.10.2)(typescript@5.5.4)':
     dependencies:
       '@commitlint/format': 19.5.0
       '@commitlint/lint': 19.6.0
@@ -6318,7 +6318,7 @@ snapshots:
       conventional-changelog-angular: 7.0.0
       conventional-commits-parser: 5.0.0
 
-  '@commitlint/prompt-cli@19.6.0(@types/node@22.10.2)(typescript@5.5.4)':
+  '@commitlint/prompt-cli@19.6.1(@types/node@22.10.2)(typescript@5.5.4)':
     dependencies:
       '@commitlint/prompt': 19.6.1(@types/node@22.10.2)(typescript@5.5.4)
       inquirer: 9.3.7

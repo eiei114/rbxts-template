@@ -23,6 +23,7 @@
 		"lint": "eslint --max-warnings 0 --flag unstable_ts_config .",
 		"lint:fix": "eslint --fix --max-warnings 0 --flag unstable_ts_config .",
 		"prepare": "husky",
+		"prod:build": "npm run clean && NODE_ENV=production && npx rbxtsc --verbose && npm run darklua",
 		"prod:sync": "rojo serve ./build.project.json",
 		"textlint": "npx textlint README.md",
 		"textlint:fix": "npx textlint --fix README.md"

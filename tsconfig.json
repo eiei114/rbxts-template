@@ -23,20 +23,6 @@
 		"outDir": "out/",
 		"allowSyntheticDefaultImports": true,
 		"forceConsistentCasingInFileNames": true,
-		"plugins": [
-			{
-				"transform": "rbxts-transformer-flamework",
-				"obfuscation": false
-			},
-			{
-				"transform": "rbxts-transform-debug"
-			},
-			{
-				"transform": "rbxts-transform-env",
-				"shortCircuitNodeEnv": false,
-				"defaultEnvironment": "development"
-			}
-		]
 	},
 	"exclude": ["./eslint.config.ts", "./commitlint.config.ts"]
 }

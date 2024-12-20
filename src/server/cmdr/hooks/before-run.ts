@@ -9,7 +9,7 @@ const enum Message {
 }
 
 export = function (registry: Registry) {
-	registry.RegisterHook("BeforeRun", (context) => {
+	registry.RegisterHook("BeforeRun", context => {
 		if (DEVS.has(context.Executor.UserId) || Runtime.IsStudio()) {
 			return;
 		}

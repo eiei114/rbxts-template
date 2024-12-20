@@ -22,7 +22,7 @@
 		"downlevelIteration": true,
 		"outDir": "out/",
 		"allowSyntheticDefaultImports": true,
-		"forceConsistentCasingInFileNames": true,
+		"forceConsistentCasingInFileNames": true
 	},
 	"exclude": ["./eslint.config.ts", "./commitlint.config.ts"]
 }

@@ -1,17 +1,21 @@
 {
-	"typescript.tsdk": "node_modules/typescript/lib",
-	"files.eol": "\n",
-	"[typescript]": {
-		"editor.defaultFormatter": "dbaeumer.vscode-eslint",
-		"editor.formatOnSave": true
-	},
-	"[typescriptreact]": {
-		"editor.defaultFormatter": "dbaeumer.vscode-eslint",
-		"editor.formatOnSave": true
-	},
-	"eslint.run": "onType",
-	"eslint.format.enable": true,
-	"cSpell.configFile": "cspell.config.yaml",
-	"editor.formatOnSave": true,
-	"prettier.requireConfig": true
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "files.eol": "\n",
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true
+  },
+  "eslint.run": "onType",
+  "eslint.format.enable": true,
+  "cSpell.configFile": "cspell.config.yaml",
+  "editor.formatOnSave": true,
+  "prettier.requireConfig": true,
+  "luau-lsp.require.mode": "relativeToFile",
+  "luau-lsp.require.directoryAliases": {
+    "@lune/": "~/.lune/.typedefs/0.8.9/"
+  }
 }

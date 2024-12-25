@@ -25,6 +25,7 @@
 		"prepare": "husky",
 		"prod:build": "npm run clean && NODE_ENV=production && npx rbxtsc --verbose && npm run darklua",
 		"prod:sync": "rojo serve ./build.project.json",
+		"rojo:build": "rojo build ./build.project.json --output place.rbxlx",
 		"textlint": "npx textlint README.md",
 		"textlint:fix": "npx textlint --fix README.md"
 	},

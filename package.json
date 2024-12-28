@@ -25,7 +25,7 @@
 		"prepare": "husky",
 		"prod:build": "npm run clean && NODE_ENV=production && npx rbxtsc --verbose && npm run darklua",
 		"prod:sync": "rojo serve ./build.project.json",
-		"rojo:build": "rojo build ./build.project.json --output place.rbxlx",
+		"rojo:build": "rojo build ./build.project.json --output production.rbxl",
 		"textlint": "npx textlint README.md",
 		"textlint:fix": "npx textlint --fix README.md"
 	},
@@ -80,7 +80,6 @@
 	"rbxts-build": {
 		"rbxtscArgs": ["--verbose"],
 		"rojoBuildArgs": ["--output", "development.rbxl"],
-
 		"syncLocation": "src/types/services.d.ts",
 		"names": {
 			"build": "dev:build",

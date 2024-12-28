@@ -1,7 +1,7 @@
 local remodel = require("./remodel")
 
-local assetsGame = remodel.readPlaceFile("game.rbxl")
-local optimizationCodeGame = remodel.readPlaceFile("place.rbxlx")
+local assetsGame = remodel.readPlaceFile("development.rbxl")
+local optimizationCodeGame = remodel.readPlaceFile("production.rbxlx")
 
 assetsGame.Workspace.Terrain:Destroy()
 assetsGame.Workspace.Camera:Destroy()

@@ -78,6 +78,9 @@
 	},
 	"packageManager": "pnpm@9.15.1",
 	"rbxts-build": {
+		"rbxtscArgs": ["--verbose"],
+		"rojoBuildArgs": ["--output", "development.rbxl"],
+
 		"syncLocation": "src/types/services.d.ts",
 		"names": {
 			"build": "dev:build",

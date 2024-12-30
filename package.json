@@ -78,7 +78,7 @@
 		"ts-node": "10.9.2",
 		"typescript": "5.7.2"
 	},
-	"packageManager": "pnpm@9.15.1",
+	"packageManager": "pnpm@9.15.2",
 	"rbxts-build": {
 		"rbxtscArgs": ["--verbose"],
 		"rojoBuildArgs": ["--output", "development.rbxl"],

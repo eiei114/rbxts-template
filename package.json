@@ -27,7 +27,9 @@
 		"prod:sync": "rojo serve ./build.project.json",
 		"rojo:build": "rojo build ./build.project.json --output production.rbxl",
 		"textlint": "npx textlint README.md",
-		"textlint:fix": "npx textlint --fix README.md"
+		"textlint:fix": "npx textlint --fix README.md",
+		"mantle:deploy:dev": "mantle deploy --environment dev",
+		"mantle:deploy:prod": "mantle deploy --environment prod"
 	},
 	"lint-staged": {
 		"*.{ts,tsx}": "prettier --write"

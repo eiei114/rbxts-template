@@ -1,0 +1,23 @@
+environments:
+  - label: dev
+    branches:
+      - main
+    targetNamePrefix: environmentLabel
+    targetAccess: private
+
+  - label: prod
+    branches:
+      - main
+    targetAccess: public
+ 
+target:
+  experience:
+    configuration:
+      genre: building
+    places:
+      start:
+        file: development.rbxl
+        configuration:
+          name: I changed the Mantle config
+          description: |-
+            Made with Mantle

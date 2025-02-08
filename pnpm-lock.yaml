@@ -12,8 +12,8 @@ importers:
         specifier: 1.12.1
         version: 1.12.1
       '@rbxts/remo':
-        specifier: 1.5.0
-        version: 1.5.0
+        specifier: 1.5.1
+        version: 1.5.1
       '@rbxts/services':
         specifier: 1.5.5
         version: 1.5.5
@@ -1444,8 +1444,8 @@ packages:
   '@rbxts/dumpster@1.0.8':
     resolution: {integrity: sha512-mkitEvfA166+EkRPF51vji9ZkAJEbqtwvrMAtPhP6EJy8IKAgh5QseHu5Zh1d5n459ufy1qY+5XHjGi2fQCqJg==}
 
-  '@rbxts/remo@1.5.0':
-    resolution: {integrity: sha512-+2qOeGvu4VwPnKUGmsNwGymNPNG+TirpgW3KWFNg4J0fYpqZCLSArt9pIEIZakzRq1kjWZHzrF9OziU3K0/g5A==}
+  '@rbxts/remo@1.5.1':
+    resolution: {integrity: sha512-ZLXyMdxBkmuexWKd/Rq912GjgIDznA2Pgc5Kvtzji57FkwlFX+vcoQCdo9cMvV2z9me5RR57TSljk5NO4ErQKw==}
 
   '@rbxts/services@1.5.5':
     resolution: {integrity: sha512-Hu7QH2ecefS60zpakKG3T2vgABydoOJqpSG7nXr59wFAbPk/cA+OcsntYPHUWyHAat0VFGZ5jNZLTLdiqfssvg==}
@@ -7019,7 +7019,7 @@ snapshots:
 
   '@rbxts/dumpster@1.0.8': {}
 
-  '@rbxts/remo@1.5.0': {}
+  '@rbxts/remo@1.5.1': {}
 
   '@rbxts/services@1.5.5': {}
 

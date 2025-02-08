@@ -4,7 +4,7 @@
 #
 
 ---
-version: "6"
+version: '6'
 environments:
   dev:
     - id: experience_singleton
@@ -28,7 +28,7 @@ environments:
     - id: placeConfiguration_start
       inputs:
         placeConfiguration:
-          name: "[DEV] I changed the Mantle config"
+          name: '[DEV] I changed the Mantle config'
           description: Made with Mantle
           maxPlayerCount: 50
           allowCopying: false
@@ -58,17 +58,17 @@ environments:
           universeAnimationType: PlayerChoice
           universeCollisionType: OuterBox
           universeAvatarMinScales:
-            height: "0.9"
-            width: "0.7"
-            head: "0.95"
-            bodyType: "0"
-            proportion: "0"
+            height: '0.9'
+            width: '0.7'
+            head: '0.95'
+            bodyType: '0'
+            proportion: '0'
           universeAvatarMaxScales:
-            height: "1.05"
-            width: "1"
-            head: "1"
-            bodyType: "1"
-            proportion: "1"
+            height: '1.05'
+            width: '1'
+            head: '1'
+            bodyType: '1'
+            proportion: '1'
           universeAvatarAssetOverrides:
             - assetTypeID: 18
               isPlayerChoice: true
@@ -163,17 +163,17 @@ environments:
           universeAnimationType: PlayerChoice
           universeCollisionType: OuterBox
           universeAvatarMinScales:
-            height: "0.9"
-            width: "0.7"
-            head: "0.95"
-            bodyType: "0"
-            proportion: "0"
+            height: '0.9'
+            width: '0.7'
+            head: '0.95'
+            bodyType: '0'
+            proportion: '0'
           universeAvatarMaxScales:
-            height: "1.05"
-            width: "1"
-            head: "1"
-            bodyType: "1"
-            proportion: "1"
+            height: '1.05'
+            width: '1'
+            head: '1'
+            bodyType: '1'
+            proportion: '1'
           universeAvatarAssetOverrides:
             - assetTypeID: 18
               isPlayerChoice: true

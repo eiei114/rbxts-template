@@ -9,7 +9,7 @@ environments:
     branches:
       - main
     targetAccess: public
- 
+
 target:
   experience:
     configuration:

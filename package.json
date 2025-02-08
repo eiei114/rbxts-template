@@ -22,14 +22,14 @@
 		"linkcheck": "npx markdown-link-check README.md",
 		"lint": "eslint --max-warnings 0 --flag unstable_ts_config .",
 		"lint:fix": "eslint --fix --max-warnings 0 --flag unstable_ts_config .",
+		"mantle:deploy:dev": "mantle deploy --environment dev",
+		"mantle:deploy:prod": "mantle deploy --environment prod",
 		"prepare": "husky",
 		"prod:build": "npm run clean && NODE_ENV=production && npx rbxtsc --verbose && npm run darklua",
 		"prod:sync": "rojo serve ./build.project.json",
 		"rojo:build": "rojo build ./build.project.json --output production.rbxl",
 		"textlint": "npx textlint README.md",
-		"textlint:fix": "npx textlint --fix README.md",
-		"mantle:deploy:dev": "mantle deploy --environment dev",
-		"mantle:deploy:prod": "mantle deploy --environment prod"
+		"textlint:fix": "npx textlint --fix README.md"
 	},
 	"lint-staged": {
 		"*.{ts,tsx}": "prettier --write"

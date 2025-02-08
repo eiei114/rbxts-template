@@ -4,7 +4,6 @@
 		"config:base",
 		":maintainLockFilesWeekly",
 		":rebaseStalePrs",
-		":maintenance",
 		"group:monorepos",
 		"group:recommended",
 		"helpers:pinGitHubActionDigests"

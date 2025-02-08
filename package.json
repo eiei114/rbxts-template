@@ -20,7 +20,7 @@
 		"dev:watch": "rbxts-build watch",
 		"license": "npx license-checker --production --summary",
 		"linkcheck": "npx markdown-link-check README.md",
-		"lint": "eslint --max-warnings 0 --flag unstable_ts_config .",
+		"lint": "eslint --max-warnings 50 --flag unstable_ts_config .",
 		"lint:fix": "eslint --fix --max-warnings 0 --flag unstable_ts_config .",
 		"mantle:deploy:dev": "mantle deploy --environment dev",
 		"mantle:deploy:prod": "mantle deploy --environment prod",

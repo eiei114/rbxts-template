@@ -3,7 +3,6 @@
 	"extends": [
 		"config:base",
 		":maintainLockFilesWeekly",
-		":enablePreCheck",
 		":rebaseStalePrs",
 		":maintenance",
 		"group:monorepos",

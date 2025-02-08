@@ -1,16 +1,62 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
 	"extends": [
-		"config:recommended",
-		":pinAllExceptPeerDependencies",
-		"helpers:pinGitHubActionDigests",
-		"npm:unpublishSafe"
+		"config:base",
+		":maintainLockFilesWeekly",
+		":enablePreCheck",
+		":rebaseStalePrs",
+		":maintenance",
+		"group:monorepos",
+		"group:recommended",
+		"helpers:pinGitHubActionDigests"
 	],
 	"packageRules": [
 		{
-			"matchPackageNames": ["@rbxts/types"],
+			"matchDepTypes": ["devDependencies"],
+			"groupName": "dev dependencies",
 			"automerge": true,
-			"minimumReleaseAge": "0 days"
+			"automergeType": "pr",
+			"commitMessagePrefix": "chore(deps-dev):",
+			"schedule": ["before 5am on monday"]
+		},
+		{
+			"matchDepTypes": ["dependencies"],
+			"groupName": "production dependencies",
+			"automerge": false,
+			"commitMessagePrefix": "chore(deps):",
+			"stabilityDays": 3
+		},
+		{
+			"matchPackagePatterns": ["^@rbxts/"],
+			"groupName": "roblox-ts packages",
+			"automerge": true,
+			"minimumReleaseAge": "1 day",
+			"labels": ["dependencies", "roblox"]
+		},
+		{
+			"matchPackagePatterns": ["^@typescript-eslint/"],
+			"enabled": false
+		},
+		{
+			"matchUpdateTypes": ["major"],
+			"dependencyDashboardApproval": true,
+			"labels": ["dependencies", "major"]
+		},
+		{
+			"matchPackageNames": ["eslint", "prettier"],
+			"matchUpdateTypes": ["major"],
+			"enabled": false
 		}
-	]
+	],
+	"dependencyDashboard": true,
+	"prConcurrentLimit": 5,
+	"stabilityDays": 2,
+	"rangeStrategy": "update-lockfile",
+	"lockFileMaintenance": {
+		"enabled": true,
+		"schedule": ["before 5am on monday"]
+	},
+	"platformAutomerge": true,
+	"automergeStrategy": "squash",
+	"semanticCommits": "enabled"
 }

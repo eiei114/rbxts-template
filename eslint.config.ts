@@ -11,18 +11,19 @@ export default style(
 			"no-console": "off",
 			"no-unused-vars": "off",
 			"ts/no-non-null-assertion": "off",
+			"ts/no-unused-expressions": "off"
 		},
 		typescript: {
 			parserOptions: {
-				project: "tsconfig.build.json",
+				project: "tsconfig.build.json"
 			},
-			tsconfigPath: "tsconfig.build.json",
-		},
+			tsconfigPath: "tsconfig.build.json"
+		}
 	},
 	{
 		files: [GLOB_MARKDOWN],
 		rules: {
-			"style/eol-last": "off",
-		},
-	},
+			"style/eol-last": "off"
+		}
+	}
 );

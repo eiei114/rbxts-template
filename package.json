@@ -41,7 +41,8 @@
 		"@rbxts/set-timeout": "1.1.2",
 		"@rbxts/t": "3.1.1",
 		"@rbxts/timer": "0.0.9",
-		"@rbxts/zone-plus": "3.2.0"
+		"@rbxts/zone-plus": "3.2.0",
+		"eslint-plugin-html": "8.1.2"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "19.6.1",
@@ -80,8 +81,13 @@
 	},
 	"packageManager": "pnpm@9.15.1",
 	"rbxts-build": {
-		"rbxtscArgs": ["--verbose"],
-		"rojoBuildArgs": ["--output", "development.rbxl"],
+		"rbxtscArgs": [
+			"--verbose"
+		],
+		"rojoBuildArgs": [
+			"--output",
+			"development.rbxl"
+		],
 		"syncLocation": "src/types/services.d.ts",
 		"names": {
 			"build": "dev:build",

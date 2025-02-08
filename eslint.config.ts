@@ -1,29 +1,32 @@
-import style, { GLOB_MARKDOWN } from "@isentinel/eslint-config";
+import tsPlugin from "@typescript-eslint/eslint-plugin";
+import tsParser from "@typescript-eslint/parser";
+import importsPlugin from "eslint-plugin-import";
+import prettierPlugin from "eslint-plugin-prettier";
 
-export default style(
+export default [
 	{
-		react: true,
-		rules: {
-			"@typescript-eslint/explicit-module-boundary-types": "off",
-			"@typescript-eslint/no-explicit-any": "off",
-			"eslint-comments/no-unlimited-disable": "off",
-			"eslint-comments/require-description": "off",
-			"no-console": "off",
-			"no-unused-vars": "off",
-			"ts/no-non-null-assertion": "off",
-			"ts/no-unused-expressions": "off"
+		files: ["**/*.ts", "**/*.tsx"],
+		plugins: {
+			"@typescript-eslint": tsPlugin,
+			import: importsPlugin,
+			prettier: prettierPlugin
 		},
-		typescript: {
+		languageOptions: {
+			parser: tsParser,
 			parserOptions: {
-				project: "tsconfig.build.json"
-			},
-			tsconfigPath: "tsconfig.build.json"
-		}
-	},
-	{
-		files: [GLOB_MARKDOWN],
+				project: "tsconfig.build.json",
+				sourceType: "module"
+			}
+		},
 		rules: {
-			"style/eol-last": "off"
+			"@typescript-eslint/no-explicit-any": "off",
+			"@typescript-eslint/no-non-null-assertion": "off",
+			"no-console": "warn",
+			"no-unused-vars": "warn",
+			"no-undef": "warn",
+			"import/no-unresolved": "off",
+			"import/named": "warn",
+			"prettier/prettier": "error"
 		}
 	}
-);
+];

@@ -1,6 +1,6 @@
 export enum GameId {
 	Development = 6031475575,
-	Production = 6110424408,
+	Production = 6110424408
 }
 
 function IsGameId(value: number): value is GameId {

@@ -39,7 +39,7 @@
 		"@rbxts/remo": "1.5.1",
 		"@rbxts/services": "1.5.5",
 		"@rbxts/set-timeout": "1.1.2",
-		"@rbxts/t": "3.1.1",
+		"@rbxts/t": "3.2.1",
 		"@rbxts/timer": "0.0.9",
 		"@rbxts/zone-plus": "3.2.0",
 		"eslint-plugin-html": "8.1.2"
@@ -55,7 +55,7 @@
 		"@eslint/js": "9.20.0",
 		"@isentinel/eslint-config": "0.9.0",
 		"@rbxts/compiler-types": "3.0.0-types.0",
-		"@rbxts/types": "1.0.836",
+		"@rbxts/types": "1.0.837",
 		"@typescript-eslint/eslint-plugin": "8.18.1",
 		"@typescript-eslint/parser": "8.18.1",
 		"eslint": "9.20.1",

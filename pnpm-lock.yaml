@@ -64,8 +64,8 @@ importers:
         specifier: 3.0.0-types.0
         version: 3.0.0-types.0
       '@rbxts/types':
-        specifier: 1.0.837
-        version: 1.0.837
+        specifier: 1.0.839
+        version: 1.0.839
       '@typescript-eslint/eslint-plugin':
         specifier: 8.18.1
         version: 8.18.1(@typescript-eslint/parser@8.18.1(eslint@9.21.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.21.0(jiti@2.4.2))(typescript@5.7.3)
@@ -1477,8 +1477,8 @@ packages:
   '@rbxts/timer@0.0.9':
     resolution: {integrity: sha512-XeX68qpRjNxvDy5efcWI0jGKM4zRFyV6EhQHSmuBbWZDQl1pD2F7h95lSZK53ai2Z2mP1l94UQYY93WMODUcIQ==}
 
-  '@rbxts/types@1.0.837':
-    resolution: {integrity: sha512-3Wy6YAkD/57RmlIGWCQ5n+nfSjMM4rraaXwBuM/2iQjDryuQMxEfP2gSnrFEbZy+j+1DZ2JhlGV7KkrPtnn8oQ==}
+  '@rbxts/types@1.0.839':
+    resolution: {integrity: sha512-/xU81ua7ULRo6msHp8kFhcEd1RV/jhsKbmrUrQ1MIU9picaWNnrBRm/QVTI5XsaeSHGmhaKYbfVIi+2xvb6Osg==}
 
   '@rbxts/zone-plus@3.2.0':
     resolution: {integrity: sha512-myxs7QXMVCCPhOpUzaoA/01ZCEG/6TBYRNk6LwksUvSp9bONnIpvEZYEazuWnIDwiOEIw/T9kCPY/7FGjMOvsA==}
@@ -7119,7 +7119,7 @@ snapshots:
       '@rbxts/services': 1.5.5
       '@rbxts/signals-tooling': 1.0.8
 
-  '@rbxts/types@1.0.837': {}
+  '@rbxts/types@1.0.839': {}
 
   '@rbxts/zone-plus@3.2.0': {}
 

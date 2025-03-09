@@ -79,7 +79,7 @@
 		"ts-node": "10.9.2",
 		"typescript": "5.8.2"
 	},
-	"packageManager": "pnpm@9.15.5",
+	"packageManager": "pnpm@9.15.7",
 	"rbxts-build": {
 		"rbxtscArgs": [
 			"--verbose"

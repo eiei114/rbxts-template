@@ -2,4 +2,4 @@
 # commitlint は、コミットメッセージの形式を統一し、チーム内での一貫性を保つために使用されます。
 # --edit オプションは、最新のコミットメッセージを検証することを指定します。
 
-pnpm dlx commitlint --edit \
+pnpm exec commitlint --edit

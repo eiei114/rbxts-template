@@ -86,7 +86,7 @@
 		],
 		"rojoBuildArgs": [
 			"--output",
-			"development.rbxl"
+			"game.rbxl"
 		],
 		"syncLocation": "src/types/services.d.ts",
 		"names": {

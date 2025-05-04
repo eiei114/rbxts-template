@@ -12,8 +12,8 @@ importers:
         specifier: 1.12.1
         version: 1.12.1
       '@rbxts/remo':
-        specifier: 1.5.1
-        version: 1.5.1
+        specifier: 1.5.2
+        version: 1.5.2
       '@rbxts/services':
         specifier: 1.5.5
         version: 1.5.5
@@ -64,8 +64,8 @@ importers:
         specifier: 3.0.0-types.0
         version: 3.0.0-types.0
       '@rbxts/types':
-        specifier: 1.0.848
-        version: 1.0.848
+        specifier: 1.0.849
+        version: 1.0.849
       '@typescript-eslint/eslint-plugin':
         specifier: 8.18.1
         version: 8.18.1(@typescript-eslint/parser@8.18.1(eslint@9.25.1(jiti@2.4.2))(typescript@5.8.3))(eslint@9.25.1(jiti@2.4.2))(typescript@5.8.3)
@@ -847,8 +847,8 @@ packages:
   '@rbxts/dumpster@1.0.8':
     resolution: {integrity: sha512-mkitEvfA166+EkRPF51vji9ZkAJEbqtwvrMAtPhP6EJy8IKAgh5QseHu5Zh1d5n459ufy1qY+5XHjGi2fQCqJg==}
 
-  '@rbxts/remo@1.5.1':
-    resolution: {integrity: sha512-ZLXyMdxBkmuexWKd/Rq912GjgIDznA2Pgc5Kvtzji57FkwlFX+vcoQCdo9cMvV2z9me5RR57TSljk5NO4ErQKw==}
+  '@rbxts/remo@1.5.2':
+    resolution: {integrity: sha512-UQSlJgLcLg1+ocXvg30TfdbuvrS4Qc3yzoxLltc+OP71fF6PmaUg/b6EQlXIt/uBCTOszDHJ7I3nlyG+pTLFjQ==}
 
   '@rbxts/services@1.5.5':
     resolution: {integrity: sha512-Hu7QH2ecefS60zpakKG3T2vgABydoOJqpSG7nXr59wFAbPk/cA+OcsntYPHUWyHAat0VFGZ5jNZLTLdiqfssvg==}
@@ -865,8 +865,8 @@ packages:
   '@rbxts/timer@0.0.9':
     resolution: {integrity: sha512-XeX68qpRjNxvDy5efcWI0jGKM4zRFyV6EhQHSmuBbWZDQl1pD2F7h95lSZK53ai2Z2mP1l94UQYY93WMODUcIQ==}
 
-  '@rbxts/types@1.0.848':
-    resolution: {integrity: sha512-NRe8RW7V7W4YVjJf7c4XfpjA/3rW9XC86mceWFWc+8kexE8hJwCaRTUkLZ5Hd2i9so1zXP68J8OUTguHeK31BQ==}
+  '@rbxts/types@1.0.849':
+    resolution: {integrity: sha512-8T7fxRTOMIDOJ8bKnCpcjvmNAeUpPsfUATezb2SFbTba1lfpp7U9hSHdzsOMFxF+1I8hp1xZg7Nm5yA5O+hBjA==}
 
   '@rbxts/zone-plus@3.2.0':
     resolution: {integrity: sha512-myxs7QXMVCCPhOpUzaoA/01ZCEG/6TBYRNk6LwksUvSp9bONnIpvEZYEazuWnIDwiOEIw/T9kCPY/7FGjMOvsA==}
@@ -5522,7 +5522,7 @@ snapshots:
 
   '@rbxts/dumpster@1.0.8': {}
 
-  '@rbxts/remo@1.5.1': {}
+  '@rbxts/remo@1.5.2': {}
 
   '@rbxts/services@1.5.5': {}
 
@@ -5543,7 +5543,7 @@ snapshots:
       '@rbxts/services': 1.5.5
       '@rbxts/signals-tooling': 1.0.8
 
-  '@rbxts/types@1.0.848': {}
+  '@rbxts/types@1.0.849': {}
 
   '@rbxts/zone-plus@3.2.0': {}
 

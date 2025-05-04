@@ -36,7 +36,7 @@
 	},
 	"dependencies": {
 		"@rbxts/cmdr": "1.12.1",
-		"@rbxts/remo": "1.5.1",
+		"@rbxts/remo": "1.5.2",
 		"@rbxts/services": "1.5.5",
 		"@rbxts/set-timeout": "1.1.2",
 		"@rbxts/t": "3.2.1",
@@ -55,7 +55,7 @@
 		"@eslint/js": "9.25.1",
 		"@isentinel/eslint-config": "0.10.0",
 		"@rbxts/compiler-types": "3.0.0-types.0",
-		"@rbxts/types": "1.0.848",
+		"@rbxts/types": "1.0.849",
 		"@typescript-eslint/eslint-plugin": "8.18.1",
 		"@typescript-eslint/parser": "8.18.1",
 		"eslint": "9.25.1",

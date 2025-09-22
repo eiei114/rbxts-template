@@ -64,8 +64,8 @@ importers:
         specifier: 3.0.0-types.0
         version: 3.0.0-types.0
       '@rbxts/types':
-        specifier: 1.0.877
-        version: 1.0.877
+        specifier: 1.0.882
+        version: 1.0.882
       '@typescript-eslint/eslint-plugin':
         specifier: 8.18.1
         version: 8.18.1(@typescript-eslint/parser@8.18.1(eslint@9.34.0(jiti@2.5.1))(typescript@5.9.2))(eslint@9.34.0(jiti@2.5.1))(typescript@5.9.2)
@@ -884,8 +884,8 @@ packages:
   '@rbxts/timer@0.0.9':
     resolution: {integrity: sha512-XeX68qpRjNxvDy5efcWI0jGKM4zRFyV6EhQHSmuBbWZDQl1pD2F7h95lSZK53ai2Z2mP1l94UQYY93WMODUcIQ==}
 
-  '@rbxts/types@1.0.877':
-    resolution: {integrity: sha512-owRjIWb50UUv/2AlSkcSPopLQZzjA2CMTKTv5OkCh3xUKo1tBSuqCcBXRAwt9vCdv4mRfesBBGQCA31qRYQQ0A==}
+  '@rbxts/types@1.0.882':
+    resolution: {integrity: sha512-MTjOCCB2pSG/aaVwHoT1wmsFN7cOl/uiV11cHUX93Mko90kkoe6ZUsqDq0iKjygb2AHT/w6vjvNQYy7NxChLEw==}
 
   '@rbxts/zone-plus@3.2.0':
     resolution: {integrity: sha512-myxs7QXMVCCPhOpUzaoA/01ZCEG/6TBYRNk6LwksUvSp9bONnIpvEZYEazuWnIDwiOEIw/T9kCPY/7FGjMOvsA==}
@@ -2264,6 +2264,7 @@ packages:
   eslint-plugin-markdown@5.1.0:
     resolution: {integrity: sha512-SJeyKko1K6GwI0AN6xeCDToXDkfKZfXcexA6B+O2Wr2btUS9GrC+YgwSyVli5DJnctUHjFXcQ2cqTaAmVoLi2A==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: Please use @eslint/markdown instead
     peerDependencies:
       eslint: '>=8'
 
@@ -5809,7 +5810,7 @@ snapshots:
       '@rbxts/services': 1.5.5
       '@rbxts/signals-tooling': 1.0.8
 
-  '@rbxts/types@1.0.877': {}
+  '@rbxts/types@1.0.882': {}
 
   '@rbxts/zone-plus@3.2.0': {}
 

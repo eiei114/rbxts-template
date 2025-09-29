@@ -64,8 +64,8 @@ importers:
         specifier: 3.0.0-types.0
         version: 3.0.0-types.0
       '@rbxts/types':
-        specifier: 1.0.882
-        version: 1.0.882
+        specifier: 1.0.883
+        version: 1.0.883
       '@typescript-eslint/eslint-plugin':
         specifier: 8.18.1
         version: 8.18.1(@typescript-eslint/parser@8.18.1(eslint@9.36.0(jiti@2.5.1))(typescript@5.9.2))(eslint@9.36.0(jiti@2.5.1))(typescript@5.9.2)
@@ -890,8 +890,8 @@ packages:
   '@rbxts/timer@0.0.9':
     resolution: {integrity: sha512-XeX68qpRjNxvDy5efcWI0jGKM4zRFyV6EhQHSmuBbWZDQl1pD2F7h95lSZK53ai2Z2mP1l94UQYY93WMODUcIQ==}
 
-  '@rbxts/types@1.0.882':
-    resolution: {integrity: sha512-MTjOCCB2pSG/aaVwHoT1wmsFN7cOl/uiV11cHUX93Mko90kkoe6ZUsqDq0iKjygb2AHT/w6vjvNQYy7NxChLEw==}
+  '@rbxts/types@1.0.883':
+    resolution: {integrity: sha512-X/SgSPqES8awoqSehdEfvOCQjFPcTGA4EflfWZ/FXyWvlfd7Y5/DWa3UfUJFGDHZu1D0iDIL66q17UYQbufpMg==}
 
   '@rbxts/zone-plus@3.2.0':
     resolution: {integrity: sha512-myxs7QXMVCCPhOpUzaoA/01ZCEG/6TBYRNk6LwksUvSp9bONnIpvEZYEazuWnIDwiOEIw/T9kCPY/7FGjMOvsA==}
@@ -5865,7 +5865,7 @@ snapshots:
       '@rbxts/services': 1.5.5
       '@rbxts/signals-tooling': 1.0.8
 
-  '@rbxts/types@1.0.882': {}
+  '@rbxts/types@1.0.883': {}
 
   '@rbxts/zone-plus@3.2.0': {}
 

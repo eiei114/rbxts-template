@@ -15,8 +15,8 @@ importers:
         specifier: 1.5.2
         version: 1.5.2
       '@rbxts/services':
-        specifier: 1.5.5
-        version: 1.5.5
+        specifier: 1.6.0
+        version: 1.6.0
       '@rbxts/set-timeout':
         specifier: 1.1.2
         version: 1.1.2
@@ -64,8 +64,8 @@ importers:
         specifier: 3.0.0-types.0
         version: 3.0.0-types.0
       '@rbxts/types':
-        specifier: 1.0.885
-        version: 1.0.885
+        specifier: 1.0.886
+        version: 1.0.886
       '@typescript-eslint/eslint-plugin':
         specifier: 8.18.1
         version: 8.18.1(@typescript-eslint/parser@8.18.1(eslint@9.37.0(jiti@2.6.1))(typescript@5.9.3))(eslint@9.37.0(jiti@2.6.1))(typescript@5.9.3)
@@ -875,8 +875,8 @@ packages:
   '@rbxts/remo@1.5.2':
     resolution: {integrity: sha512-UQSlJgLcLg1+ocXvg30TfdbuvrS4Qc3yzoxLltc+OP71fF6PmaUg/b6EQlXIt/uBCTOszDHJ7I3nlyG+pTLFjQ==}
 
-  '@rbxts/services@1.5.5':
-    resolution: {integrity: sha512-Hu7QH2ecefS60zpakKG3T2vgABydoOJqpSG7nXr59wFAbPk/cA+OcsntYPHUWyHAat0VFGZ5jNZLTLdiqfssvg==}
+  '@rbxts/services@1.6.0':
+    resolution: {integrity: sha512-YH02E1/tGHeMXB0Mam8qPdAZa2fjQWdylEscSL4Zn0RIaQeByYImA2qUsXM3nBdhcyKHDwltzSznDKyCGfFEWA==}
 
   '@rbxts/set-timeout@1.1.2':
     resolution: {integrity: sha512-P/A0IiH9wuZdSJYr4Us0MDFm61nvIFR0acfKFHLkcOsgvIgELC90Up9ugiSsaMEHRIcIcO5UjE39LuS3xTzQHw==}
@@ -890,8 +890,8 @@ packages:
   '@rbxts/timer@0.0.9':
     resolution: {integrity: sha512-XeX68qpRjNxvDy5efcWI0jGKM4zRFyV6EhQHSmuBbWZDQl1pD2F7h95lSZK53ai2Z2mP1l94UQYY93WMODUcIQ==}
 
-  '@rbxts/types@1.0.885':
-    resolution: {integrity: sha512-PWGvpIJ7BuJCaccWP8+/vadzzyDVnk/pDp/EPjBVpZdyDRQp8/FtiaSqxOsZDkMh2j/wXm0aEPyXlYLUKvl+0A==}
+  '@rbxts/types@1.0.886':
+    resolution: {integrity: sha512-9CU1M2TkbW6hIVEYzVYYaQJrciARgbQr1Q8PcwQea4grBVLmMS8HqA90tSTcMIJvOCz5QCv01iyieaynakfU8w==}
 
   '@rbxts/zone-plus@3.2.0':
     resolution: {integrity: sha512-myxs7QXMVCCPhOpUzaoA/01ZCEG/6TBYRNk6LwksUvSp9bONnIpvEZYEazuWnIDwiOEIw/T9kCPY/7FGjMOvsA==}
@@ -5852,26 +5852,26 @@ snapshots:
 
   '@rbxts/remo@1.5.2': {}
 
-  '@rbxts/services@1.5.5': {}
+  '@rbxts/services@1.6.0': {}
 
   '@rbxts/set-timeout@1.1.2':
     dependencies:
-      '@rbxts/services': 1.5.5
+      '@rbxts/services': 1.6.0
 
   '@rbxts/signals-tooling@1.0.8':
     dependencies:
       '@rbxts/dumpster': 1.0.8
-      '@rbxts/services': 1.5.5
+      '@rbxts/services': 1.6.0
 
   '@rbxts/t@3.2.1': {}
 
   '@rbxts/timer@0.0.9':
     dependencies:
       '@rbxts/dumpster': 1.0.8
-      '@rbxts/services': 1.5.5
+      '@rbxts/services': 1.6.0
       '@rbxts/signals-tooling': 1.0.8
 
-  '@rbxts/types@1.0.885': {}
+  '@rbxts/types@1.0.886': {}
 
   '@rbxts/zone-plus@3.2.0': {}
 

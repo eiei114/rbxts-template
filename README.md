@@ -237,7 +237,7 @@ Please adhere to the project's coding guidelines and include tests where applica
 
 ## License
 
-This project is licensed under the [ISC License](./LICENSE). See the LICENSE file for details.
+This project is licensed under the [ISC License](https://opensource.org/license/isc-license-txt), as declared in `package.json`.
 
 ---
 
